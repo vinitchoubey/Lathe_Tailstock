@@ -1,12 +1,14 @@
-# Lathe Machine Tailstock - 3D Modelling & Assembly
+# Lathe Machine Tailstock Assembly
 
 ## Overview
-Detailed 3D modelling and assembly of a lathe machine tailstock developed as part of the ME202 course at IIT Ropar.
-The tailstock is a critical component of a lathe that supports long workpieces, assists in drilling operations, and ensures machining accuracy. This project focused on accurately recreating the mechanical structure and functional spindle movement of the tailstock using standard CAD operations and assembly constraints.
+Detailed 3D modelling and assembly of a lathe machine tailstock developed as part of the ME202 course at IIT Ropar. The tailstock is a critical component of a lathe that supports long workpieces, assists in drilling operations, and ensures machining accuracy. This project focused on accurately recreating the mechanical structure and functional spindle movement of the tailstock using standard CAD operations and assembly constraints.
 
-**Course:** ME202  
-**Institution:** IIT Ropar (Indian Institute of Technology, Ropar)  
-**CAD Software:** SolidWorks  
+* **Course:** ME202
+* **Institution:** IIT Ropar (Indian Institute of Technology, Ropar)
+* **CAD Software:** SolidWorks
+
+### Complete Assembly
+![Complete Tailstock Assembly](media/tailstock_3d_assembly.png)
 
 ## Working Principle
 * **Support:** The tailstock body and base align to securely support the free end of a long workpiece during lathe operations.
@@ -19,11 +21,15 @@ The tailstock is a critical component of a lathe that supports long workpieces, 
 * **Assembly Mates:** Components were aligned and constrained using standard mates including concentric, coincident, distance, and parallel configurations.
 * **Kinematic Testing:** The complete assembly was tested to validate the realistic sliding motion of the spindle, representing true functional behavior.
 
+### Component Sketches and Engineering Drawing
+![Engineering Drawing of Components](media/part_engineering_drawings.png)
+
 ## Files
+
 | Folder/File | Contents |
 | :--- | :--- |
 | `cad_files/` | Contains the original SolidWorks part and assembly files (.SLDPRT, .SLDASM) |
-| `media/` | Contains an .avi video demonstration of the final assembly and functional spindle motion |
+| `media/` | Contains an .avi video demonstration of the final assembly and functional spindle motion, alongside project images |
 | `CAD_PROJECT-REPORT.pdf` | Full formal project report detailing the modelling and assembly process |
 
 ## Skills Demonstrated
